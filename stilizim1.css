@@ -1,0 +1,81 @@
+.sub {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.sub1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.form-control {
+
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(206, 212, 218);
+    border-radius: 0rem;
+    transition: none;
+}
+
+.accordion-button {
+    background-color: #f0f1f5;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #c3651e;
+    --bs-accordion-border-width: 1px;
+}
+
+.accordion .card-body {
+    border-width: 0px 1px 1px 1px;
+    border-color: #a7a7a78a;
+    border-style: solid;
+    padding: 4%;
+    border-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+
+.accordion {
+    --bs-accordion-color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+    --bs-accordion-border-width: 0px;
+    transition: none;
+    --bs-accordion-btn-icon-transform: none;
+    --bs-accordion-btn-icon-transition: none;
+    --bs-accordion-btn-focus-border-color: #86b7fe00;
+    --bs-accordion-btn-focus-box-shadow: transparent;
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: #0c63e4;
+    --bs-accordion-active-bg: #e7f1ff;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23000' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+
+.opinion {
+    background-color: #f0f1f5;
+}
+
+img .round{
+    border-radius: 50%;
+}
+
+.accordion-body,.content p{
+    color:#575757;
+}
